@@ -363,6 +363,6 @@ main {
     .cards,
     .deals-grid {
         grid-template-columns: 1fr;
-    }
+    }}
 }
 
