@@ -37,7 +37,7 @@ Amazon-Clone/
 
 ## 📸 Screenshot
 
-_Add a screenshot of your project here._
+
 
 ## 🔮 Future Improvements
 
