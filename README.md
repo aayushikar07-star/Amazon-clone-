@@ -38,6 +38,7 @@ Amazon-Clone/
 ## 📸 Screenshot
 <img width="1895" height="1030" alt="image" src="https://github.com/user-attachments/assets/bc913e53-80e5-46b1-b97c-2dab52dbfc59" />
 
+<img width="1892" height="392" alt="image" src="https://github.com/user-attachments/assets/e904cd05-16aa-4d32-bc85-8d5264d0a2e2" />
 
 
 
