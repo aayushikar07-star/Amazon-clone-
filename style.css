@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+header {
+    background-color: #131921;
+}
+
+.sub-nav {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 8px 20px;
+    background-color: #232f3e;
+    color: white;
+    font-size: 0.95rem;
+}
+
+.sub-nav-item {
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 2px;
+}
+
+.sub-nav-item:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    gap: 10px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 110px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.logo {
+    width: 100%;
+    height: 50px;
+    background-image: url('amazon_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.border:hover {
+    border-color: white;
+}
+
+.nav-address {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    flex: 1;
+    max-width: 760px;
+    height: 40px;
+    margin: 0 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav-search:hover {
+    border-color: #ff9900;
+}
+
+.search-select {
+    width: 52px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 0 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-icon {
+    width: 45px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+.nav-singin,
+.nav-return {
+    padding: 8px 10px;
+    min-width: 110px;
+}
+
+.navbar span {
+    font-size: 0.85rem;
+    color: #cccccc;
+    display: block;
+}
+
+.nav-second {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    padding: 8px 10px;
+    min-width: 70px;
+}
+
+.nav-cart i {
+    font-size: 1.3rem;
+}
+
+.cart-count {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    background-color: #f08804;
+    color: white;
+    padding: 0 5px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero-section {
+    position: relative;
+    min-height: 380px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.16) 60%, rgba(0, 0, 0, 0.08) 100%);
+    z-index: 1;
+}
+
+.hero-box {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 25px;
+    max-width: 560px;
+    width: min(90%, 560px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-box h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: #131921;
+}
+
+.hero-box p {
+    color: #444;
+    margin-bottom: 12px;
+}
+
+.hero-box a,
+.card a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: 600;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #131921;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.deals-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.deals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.deals-header h2 {
+    font-size: 1.2rem;
+    color: #131921;
+}
+
+.deals-header a {
+    text-decoration: none;
+    color: #007185;
+    font-weight: 600;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.deal-card {
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.deal-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.deal-card p {
+    color: #b12704;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.deal-card h3 {
+    font-size: 0.95rem;
+    color: #131921;
+}
+
+@media (max-width: 900px) {
+    .cards,
+    .deals-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-search {
+        order: 4;
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+    .hero-section {
+        min-height: 320px;
+    }
+
+    .hero-box {
+        padding: 20px;
+        margin-bottom: 18px;
+    }
+
+    .cards,
+    .deals-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
