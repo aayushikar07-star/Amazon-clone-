@@ -40,6 +40,7 @@ Amazon-Clone/
 
 
 
+
 ## 🔮 Future Improvements
 
 - Add JavaScript for interactive functionality
