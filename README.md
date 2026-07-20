@@ -24,7 +24,6 @@ Amazon-Clone/
 │── index.html
 │── style.css
 │── images/
-└── README.md
 ```
 
 ## 🎯 Learning Outcomes
