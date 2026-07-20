@@ -36,6 +36,7 @@ Amazon-Clone/
 - Recreated a real-world e-commerce website interface
 
 ## 📸 Screenshot
+![Uploading image.png…]()
 
 
 
